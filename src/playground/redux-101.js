@@ -33,7 +33,7 @@ const resetCount = () => ({
 //This is the job os reducers.
 //this function below is called a reducer:
 //we get our action but the action alone doesnt do anything its the reducer that 
-//determines what to do based off of an action: how do we want to change the state
+//determines what to do based off of an action (how do we want to change the state)
 
 //Reducers
 //Reducers are pure functions which have certain qualities:
