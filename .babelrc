@@ -1,9 +1,13 @@
+//to use object spread operator need plug-in from babel:
+//yarn add babel-plugin-transform-object-rest-spread@6.23.0
+
 {
   "presets": [
     "env",
     "react"
   ],
   "plugins": [
-    "transform-class-properties"
+    "transform-class-properties",
+    "transform-object-rest-spread"
   ]
 }
